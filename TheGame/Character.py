@@ -34,7 +34,7 @@ class Character:
         pass
 
     @abstractmethod
-    def simple__attack():
+    def simple__attack(self):
         """Переместить объект"""
 
 
