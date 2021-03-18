@@ -1,4 +1,4 @@
-
+from abc import ABC, abstractmethod
 
 class Character:
 
@@ -33,8 +33,8 @@ class Character:
     def __init__(self) -> None:
         pass
 
-    # @abstractmethod
-    def move():
+    @abstractmethod
+    def simple__attack():
         """Переместить объект"""
 
 
