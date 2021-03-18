@@ -37,6 +37,14 @@ class Character:
     def simple__attack(self):
         """Переместить объект"""
 
+    @abstractmethod
+    def hard__attack(self):
+        """Переместить объект"""
+
+    @abstractmethod
+    def alt__attack(self):
+        """Переместить объект"""
+
 
 
 
