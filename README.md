@@ -1,5 +1,5 @@
 # Battle Arena
-
+![Alt-текст](https://img.craftpix.net/2020/06/Battle-Arena-Backgrounds-Pack7-720x480.jpg)
 
 ## Диаграмма классов
 
