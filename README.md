@@ -7,3 +7,7 @@
 
 ## Канбан
 ![Безымянный](https://user-images.githubusercontent.com/55824401/113551540-052e3900-961f-11eb-81ef-238dfc63b68b.png)
+
+### История
+
+...
