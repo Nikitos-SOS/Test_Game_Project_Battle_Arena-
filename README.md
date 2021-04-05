@@ -1,4 +1,4 @@
-# Test_Game_Project_Battle_Arena-
+# Battle Arena
 
 
 ## Диаграмма классов
