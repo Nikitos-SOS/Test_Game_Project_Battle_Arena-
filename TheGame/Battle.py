@@ -3,8 +3,8 @@ from Character import Character
 
 
 class Battle():
-    # player1: Character
-    # player2: Character 
+    # player1: character
+    # player2: character
 
     def __init__(self, player1, player2) -> None:
         self.player1 = player1
