@@ -6,7 +6,7 @@ from Mage import Mage
 from Character import Character
 
 
-class Choice():
+class Choice:
     player1: Character
     player2: Character
 
@@ -20,16 +20,15 @@ class Choice():
 
         typing(" \n Введите число [1,2,3]: ")
         player_class = int(input())
-        if(player_class == 1):
+        if player_class == 1:
             return Mage()
-        elif(player_class == 2):
+        elif player_class == 2:
             return Warrior()
-        elif(player_class == 3):
+        elif player_class == 3:
             return Hunter()
         else:
-            typing("Что-то пошло не так(\nПопробуйте снова")
+            print("Что-то пошло не так(\nПопробуйте снова")
             return self.choice__character()
-        
 
     def menu(self):
         typing("Перед началом поединка, выберите персонажа!")
@@ -39,8 +38,3 @@ class Choice():
 
         typing("Игрок №2 ")
         self.player2 = self.choice__character()
-
-
-
-
-        

@@ -10,6 +10,10 @@ class Battle():
         self.player1 = player1
         self.player2 = player2
 
+    def deal_damage(self, health, damage):
+        health = health - int(damage)
+        return health
+
     def battle(self):
         round_counter = 1
         while(True):
@@ -17,15 +21,20 @@ class Battle():
 
             typing("Ходит игрок 1")
             damage = self.make_a_turn(self.player1)
-            self.player2.health = self.player2.health - int(damage)
+            self.player2.health = self.deal_damage(self.player2.health,damage)
+            # self.player2.health = self.player2.health - int(damage)
             typing("HP player2 " + str(self.player2.health))
 
             typing("\nХодит игрок 2")
             damage = self.make_a_turn(self.player2)
-            self.player1.health = self.player1.health - int(damage)
+            self.player1.health = self.deal_damage(self.player1.health,damage)
+            # self.player1.health = self.player1.health - int(damage)
             typing("HP player2 " + str(self.player1.health))
 
-            if(self.player2.health <= 0):
+
+            if(self.player2.health <=0 and self.player1.health <=0):
+                return "draw"
+            elif(self.player2.health <= 0):
                 return "player1 win"
             elif(self.player1.health <= 0):
                 return "player2 win"
