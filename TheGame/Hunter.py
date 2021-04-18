@@ -18,7 +18,7 @@ class Hunter(Character):
 
     def simple__attack(self):
         damage = random.randrange(24,36)
-        typing("Воин наносит сокрушительный удар топором и наносит: " + str(damage) + "урона")
+        typing("Охотник выпускает стрелу из лука и наносит: " + str(damage) + "урона")
         return damage
     
     def hard__attack(self):

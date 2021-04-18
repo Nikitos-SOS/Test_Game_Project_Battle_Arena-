@@ -1,6 +1,7 @@
 import sys
 import time
 
+
 def typing(lst):
     for character in lst:
         sys.stdout.write(character)
