@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
-class Character:
 
+class Character:
     name: str
 
     strength: int
@@ -26,11 +26,3 @@ class Character:
     @abstractmethod
     def alt__attack(self):
         """Переместить объект"""
-
-
-
-
-
-
-
-

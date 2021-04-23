@@ -1,11 +1,11 @@
 # import typing
-from Battle import Battle
-from Choice import Choice
-from Warrior import Warrior
-from Character import Character
-from Mage import Mage
-from Hunter import Hunter
-from Typing import typing
+from TheGame.Battle import Battle
+from TheGame.Choice import Choice
+from TheGame.Warrior import Warrior
+from TheGame.Character import Character
+from TheGame.Mage import Mage
+from TheGame.Hunter import Hunter
+from TheGame.Typing import typing
 
 
 # mage = Mage()

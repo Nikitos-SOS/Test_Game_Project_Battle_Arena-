@@ -1,9 +1,8 @@
-from random import choice
-from Typing import typing
-from Hunter import Hunter
-from Warrior import Warrior
-from Mage import Mage
-from Character import Character
+from TheGame.Typing import typing
+from TheGame.Hunter import Hunter
+from TheGame.Warrior import Warrior
+from TheGame.Mage import Mage
+from TheGame.Character import Character
 
 
 class Choice:
