@@ -19,14 +19,15 @@ class Choice:
         typing("3. Охотник-следопыт ")
 
         typing(" \n Введите число [1,2,3]: ")
-        player_class = int(input())
-        if player_class == 1:
-            return Mage()
-        elif player_class == 2:
-            return Warrior()
-        elif player_class == 3:
-            return Hunter()
-        else:
+        try:
+            player_class = int(input())
+            if player_class == 1:
+                return Mage()
+            elif player_class == 2:
+                return Warrior()
+            elif player_class == 3:
+                return Hunter()
+        except Exception:
             print("Что-то пошло не так(\nПопробуйте снова")
             return self.choice__character()
 

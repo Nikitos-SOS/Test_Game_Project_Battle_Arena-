@@ -44,14 +44,15 @@ class Battle():
 
     def make_a_turn(self,player):
         typing("Введите число [1,2,3]: ")
-        attack = int(input())
-        if(attack == 1):
-            return int(player.simple__attack())
-        elif(attack == 2):
-            return int(player.hard__attack())
-        elif(attack == 3):
-            return int(player.alt__attack())
-        else:
+        try:
+            attack = int(input())
+            if(attack == 1):
+                return int(player.simple__attack())
+            elif(attack == 2):
+                return int(player.hard__attack())
+            elif(attack == 3):
+                return int(player.alt__attack())
+        except Exception:
             typing("Промазал")
             return 0
         
