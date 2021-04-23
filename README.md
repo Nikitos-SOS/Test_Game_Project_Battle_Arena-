@@ -13,5 +13,6 @@
 ### Таблица решений
 ![PjszOVu-p2s](https://user-images.githubusercontent.com/55824401/115837862-3f7f3f00-a443-11eb-962e-5dbeeabe9f6b.jpg)
 
-###Диаграмма состояний
-![Untitled Diagram](https://user-images.githubusercontent.com/55824401/115848125-bf120b80-a44d-11eb-953d-823b839f80f3.png)
+### Диаграмма состояний
+![Untitled Diagram](https://user-images.githubusercontent.com/55824401/115848505-2334cf80-a44e-11eb-9735-b233fd9a2dd6.png)
+
