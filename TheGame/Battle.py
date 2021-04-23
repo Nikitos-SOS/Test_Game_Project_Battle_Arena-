@@ -30,11 +30,11 @@ class Battle():
             # self.player1.health = self.player1.health - int(damage)
             typing("HP player1 " + str(self.player1.health))
 
-            if (self.player2.health <= 0 and self.player1.health <= 0):
+            if self.player2.health <= 0 and self.player1.health <= 0:
                 return "draw"
-            elif (self.player2.health <= 0):
+            elif self.player2.health <= 0:
                 return "player1 win"
-            elif (self.player1.health <= 0):
+            elif self.player1.health <= 0:
                 return "player2 win"
 
             round_counter += 1
@@ -42,11 +42,11 @@ class Battle():
     def make_a_turn(self, player):
         typing("Введите число [1,2,3]: ")
         attack = int(input())
-        if (attack == 1):
+        if attack == 1:
             return int(player.simple__attack())
-        elif (attack == 2):
+        elif attack == 2:
             return int(player.hard__attack())
-        elif (attack == 3):
+        elif attack == 3:
             return int(player.alt__attack())
         else:
             typing("Промазал")
