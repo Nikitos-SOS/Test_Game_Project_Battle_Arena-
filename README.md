@@ -9,3 +9,7 @@
 ![Безымянный](https://user-images.githubusercontent.com/55824401/113551540-052e3900-961f-11eb-81ef-238dfc63b68b.png)
 
 ### История
+
+### Таблица решений
+![PjszOVu-p2s](https://user-images.githubusercontent.com/55824401/115837862-3f7f3f00-a443-11eb-962e-5dbeeabe9f6b.jpg)
+
