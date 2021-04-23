@@ -15,7 +15,7 @@ class Battle():
 
     def battle(self):
         round_counter = 1
-        while (True):
+        while True:
             typing("\nРаунд " + str(round_counter))
 
             typing("Ходит игрок 1")
