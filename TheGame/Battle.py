@@ -28,7 +28,7 @@ class Battle():
             damage = self.make_a_turn(self.player2)
             self.player1.health = self.deal_damage(self.player1.health, damage)
             # self.player1.health = self.player1.health - int(damage)
-            typing("HP player2 " + str(self.player1.health))
+            typing("HP player1 " + str(self.player1.health))
 
             if (self.player2.health <= 0 and self.player1.health <= 0):
                 return "draw"
