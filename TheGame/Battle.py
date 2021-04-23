@@ -16,7 +16,7 @@ class Battle():
     def battle(self):
         round_counter = 1
         while (True):
-            typing("Раунд " + str(round_counter))
+            typing("\nРаунд " + str(round_counter))
 
             typing("Ходит игрок 1")
             damage = self.make_a_turn(self.player1)
@@ -24,7 +24,7 @@ class Battle():
             # self.player2.health = self.player2.health - int(damage)
             typing("HP player2 " + str(self.player2.health))
 
-            typing("\nХодит игрок 2")
+            typing("Ходит игрок 2")
             damage = self.make_a_turn(self.player2)
             self.player1.health = self.deal_damage(self.player1.health, damage)
             # self.player1.health = self.player1.health - int(damage)
