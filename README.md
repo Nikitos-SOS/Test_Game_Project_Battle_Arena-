@@ -9,7 +9,8 @@
 ![Безымянный](https://user-images.githubusercontent.com/55824401/113551540-052e3900-961f-11eb-81ef-238dfc63b68b.png)
 
 ### Таблица решений
-![PjszOVu-p2s](https://user-images.githubusercontent.com/55824401/115837862-3f7f3f00-a443-11eb-962e-5dbeeabe9f6b.jpg)
+![изображение](https://user-images.githubusercontent.com/55824401/116030068-f4ed0500-a684-11eb-83d5-e80ff919c1c0.png)
+
 
 ### Диаграмма состояний
 ![изображение](https://user-images.githubusercontent.com/55824401/116030010-cec76500-a684-11eb-919a-d31f04370093.png)
