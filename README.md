@@ -12,7 +12,7 @@
 ![PjszOVu-p2s](https://user-images.githubusercontent.com/55824401/115837862-3f7f3f00-a443-11eb-962e-5dbeeabe9f6b.jpg)
 
 ### Диаграмма состояний
-![Untitled Diagram](https://user-images.githubusercontent.com/55824401/115848505-2334cf80-a44e-11eb-9735-b233fd9a2dd6.png)
+![изображение](https://user-images.githubusercontent.com/55824401/116030010-cec76500-a684-11eb-919a-d31f04370093.png)
 
 ### История
 
